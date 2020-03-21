@@ -24,7 +24,7 @@ A chirp is a tone frequency ex: a cos or a sin, that goes continually from  freq
 
 ![Chirp emitted](./chirp.png)
 
-## The frequency response of my computer laptop audio system
+## The frequency response of my laptop audio system
 FFT of the signal at the input of the microphone of my computer. As you can see it's not a horizontal line as it should be. That is the frequency response of my computer built in audio microphone is not equal in all frequencies. <br>
 
 ![FFT of microphone of laptop](./FFT_Microphone.png)
