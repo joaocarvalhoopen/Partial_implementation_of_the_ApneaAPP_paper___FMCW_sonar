@@ -1,10 +1,10 @@
 # Partial implementation of the ApneaAPP paper - FMCW sonar
-The technique described in the original paper has the capacity to monitor the breading abdominal movements in a sleeping person, normally used to detect sleep apnea.  
+The technique described in the original paper has the possibility to monitor the breading abdominal movements in a sleeping person, normally used to detect sleep apnea.  
 
 ## Description
 This is a partial implementation of the paper, it implements (independently) the sonar part, not the medical part, and it is here only to help others understand better the technique with my example code, I hope that the technique could be useful for something (not my code directly). <br> 
 <br>
-I would like to talk about a technique to measure breading rate, more precisely respiratory abdominal movement (making a graph of it in time) with a phone, a tablet, a Raspberry Pi or a computer. This is currently used by several APPs for Sleep Apnea detection (I don't know if there are patents and I only used to try to understand it). But I think (wold guess) that the technique could be used for monitoring patients in a room or at home for their breading patterns and alert other family members that the ill person is breading with difficulty or if it is in a hospital bed in a room. The distance between patients can be used to make the detection on more than one person in simultaneous. This uses any phone or computer that has a speaker and a microphone. The development necessary is only software. This is only a wild guess, I'm not a doctor, i'm not a scientist, I'm not a medical engineer. <br>
+I would like to talk about a technique to measure breading rate, more precisely respiratory abdominal movement (making a graph of it in time) with a phone, a tablet, a Raspberry Pi or a computer. This is currently used by several APPs for Sleep Apnea detection (I don't know if there are patents and I only used to try to understand it). But I think (wild guess) that the technique could be used for monitoring patients in a room or at home for their breading patterns and alert other family members that the ill person is breading with difficulty or if it is in a hospital bed in a room. The distance between patients can be used to make the detection on more than one person in simultaneous. This uses any phone or computer that has a speaker and a microphone. The development necessary is only software. This is only a wild guess, I'm not a doctor, i'm not a scientist, I'm not a medical engineer. <br>
 <br>
 See the video in this link <br>
 https://apnea.cs.washington.edu/ <br>
@@ -34,7 +34,7 @@ This is the end result of this code. <br>
 
 ![Graph of the movement detected](./movment_graph.png)
 
-## More in depth description - this was I wrote about it to some friends when I made this back in 2018
+## More in depth description - I wrote about it to some friends when I made this back in 2018
 Hello, good night, <br>
 Yesterday night and today I have been trying tyo implement one prototype of the ideas that are in the paper of ApneaApp. Only the part of the sonar of FMCW of the movement detection  and not the part of the medical classification of sleep apneas from the abdominal movements. This last part I don't have medical knowledge to do it. <br> 
 <br>
